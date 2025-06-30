@@ -99,8 +99,8 @@ public class Methos {
         System.out.println(str1.isEmpty() + "\n");
 
         System.out.println("23. intern Method");
-        String s1 = new String("Sohan");
-        String s2 = "Sohan";
+        String st1 = new String("Sohan");
+        String st2 = "Sohan";
         System.out.println(s1 == s2);
         System.out.println(s1.intern() == s2 + "\n");
 
